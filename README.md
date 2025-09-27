@@ -10,7 +10,7 @@
 ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-12.23.22-purple)
 ![EmailJS](https://img.shields.io/badge/EmailJS-4.4.1-orange)
 
-[🔗 Live Demo](https://sajjad-portfolio.vercel.app) • [📧 Contact Me](mailto:sajjad6ansari@gmail.com) • [📄 Resume](https://drive.google.com/file/d/1lG8V--x5Hg2jTnA0V3c6nAYd8FPo6aQ2/view)
+[🔗 Live Demo](https://sajjadansari.netlify.app) • [📧 Contact Me](mailto:sajjad6ansari@gmail.com) • [📄 Resume](https://drive.google.com/file/d/1_CpHM6ItNEEdIzuGJLmwRq2dFLSnMC72/view)
 
 </div>
 
@@ -119,7 +119,7 @@
 <br>
 
 - **Version Control**: Git, GitHub
-- **Deployment**: Vercel, Render, 000webhost
+- **Deployment**: Netlify, Vercel, Render, 000webhost
 - **Containerization**: Docker
 - **Cloud Services**: MongoDB Atlas, Cloudinary
 

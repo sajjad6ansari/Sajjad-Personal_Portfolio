@@ -28,13 +28,17 @@ const Header: React.FC = () => {
     { icon: Github, href: 'https://github.com/sajjad6ansari', label: 'GitHub' },
     { icon: Linkedin, href: 'https://www.linkedin.com/in/sajjad-ansari-solo/', label: 'LinkedIn' },
     { icon: Mail, href: 'mailto:sajjad6ansari@gmail.com', label: 'Email' },
-    { icon: FileText, href: '#resume', label: 'Resume' }
+    { icon: FileText, href: 'https://drive.google.com/file/d/1_CpHM6ItNEEdIzuGJLmwRq2dFLSnMC72/view', label: 'Resume' }
   ];
 
   const scrollToSection = (href: string) => {
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+    if (href.startsWith('http')) {
+      window.open(href, '_blank', 'noopener,noreferrer');
+    } else {
+      const element = document.querySelector(href);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
     }
     setIsMenuOpen(false);
   };
