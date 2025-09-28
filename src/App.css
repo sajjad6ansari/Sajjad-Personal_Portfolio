@@ -28,6 +28,21 @@ main {
   overflow-x: hidden;
 }
 
+/* Prevent horizontal scroll on all elements */
+* {
+  max-width: 100%;
+}
+
+/* Touch optimization */
+button, a, input, textarea {
+  min-height: 44px; /* Minimum touch target size */
+  min-width: 44px;
+}
+
+input, textarea, select {
+  touch-action: manipulation; /* Prevents zoom on iOS */
+}
+
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
@@ -175,6 +190,12 @@ a:hover {
 }
 
 /* Responsive Typography */
+@media (max-width: 1024px) {
+  body {
+    font-size: 15px;
+  }
+}
+
 @media (max-width: 768px) {
   body {
     font-size: 14px;
@@ -193,6 +214,12 @@ a:hover {
   }
 }
 
+@media (max-width: 640px) {
+  body {
+    font-size: 13.5px;
+  }
+}
+
 @media (max-width: 480px) {
   body {
     font-size: 13px;
@@ -200,6 +227,20 @@ a:hover {
   
   .footer-quote {
     font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 360px) {
+  body {
+    font-size: 12px;
+  }
+  
+  .footer {
+    padding: 1.25rem 0;
+  }
+  
+  .footer-container {
+    padding: 0 0.75rem;
   }
 }
 
