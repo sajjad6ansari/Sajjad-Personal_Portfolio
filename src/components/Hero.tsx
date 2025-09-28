@@ -62,7 +62,7 @@ const Hero: React.FC = () => {
               transition={{ delay: 0.8, duration: 0.6 }}
               className="hero-description"
             >
-              Passionate MERN Stack developer from{' '}
+              JavaScript Full Stack developer from{' '}
               <span className="location">
                 <MapPin size={16} />
                 Kolkata, India
