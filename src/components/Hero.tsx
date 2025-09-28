@@ -103,6 +103,7 @@ const Hero: React.FC = () => {
                 onClick={() => scrollToSection('#projects')}
                 className="btn btn-primary"
               >
+                <Code size={18} />
                 View My Work
               </motion.button>
               
@@ -112,6 +113,7 @@ const Hero: React.FC = () => {
                 onClick={() => scrollToSection('#contact')}
                 className="btn btn-secondary"
               >
+                <Coffee size={18} />
                 Let's Connect
               </motion.button>
 
@@ -124,7 +126,7 @@ const Hero: React.FC = () => {
                 className="btn btn-outline"
               >
                 <Download size={18} />
-                Resume
+                Download Resume
               </motion.a>
             </motion.div>
           </motion.div>
